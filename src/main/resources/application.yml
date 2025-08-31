@@ -1,1 +1,11 @@
-spring.application.name=spring-ai
+spring:
+  application:
+    name: spring-ai
+  ai:
+    openai:
+      base-url: https://dashscope.aliyuncs.com/compatible-mode/v1
+      api-key: sk-e8e3db67ea354b2d8406adf5a163c7af
+      model: qwen-plus
+      client:
+        default-headers:
+          X-DashScope-SDK: java-spring-ai
